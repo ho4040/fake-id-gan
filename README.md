@@ -2,7 +2,13 @@
 
 generate fake id via GANs. 
 
-cause basic GAN model generate strange words (it was too long), I added some constraint to discriminator.
+cause basic GAN model generate strange words (it was too long), I added some constraint to discriminator like this.
+
+```python
+x_hist = tf.contrib.layers.flatten(tf.reduce_sum(x, axis=1))# add histogram of characters
+x_len = tf.contrib.layers.flatten(tf.reduce_sum(x, axis=2))# add density of word
+layer = tf.concat([layer, x_len, x_hist], 1)
+```
 
 
 # dataset
