@@ -2,7 +2,8 @@
 
 generate fake id via GANs. 
 
-cause basic gan model generate strange words (it was too long) I added some constraint to discriminator then it works fine.
+cause basic GAN model generate strange words (it was too long), I added some constraint to discriminator.
+
 
 # dataset
 
