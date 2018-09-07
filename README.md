@@ -21,7 +21,6 @@ blabla__bla1bla1
 ...
 bla23.bla23
 ```
-you can easily collect ids from social media.
 
 
 # requirements
