@@ -1,7 +1,6 @@
-# fake id 생성기
+# Fake id experiment
 
 Generative adversarial network 을 활용해서 Fake ID를 생성하는 실험입니다.
-
 
 # dataset
 
