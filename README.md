@@ -28,7 +28,7 @@ Generative adversarial network 을 활용해서 Fake ID를 생성하는 실험�
 # 실행
 
 ```
-$ python3 fake-id-gan.py
+$ python3 train.py
 ```
 
 
