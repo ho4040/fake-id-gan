@@ -2,6 +2,8 @@
 
 generate fake id via GANs. 
 
+## info 
+
 cause basic GAN model generate strange words (it was too long), I added some constraint to discriminator like this.
 
 ```python
