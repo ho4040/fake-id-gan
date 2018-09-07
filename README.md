@@ -1,21 +1,23 @@
 # Fake id experiment
 
-Generative adversarial network 을 활용해서 Fake ID를 생성하는 실험입니다.
+generate fake id via GANs. 
+
+cause basic gan model generate strange words (it was too long) I added some constraint to discriminator then it works fine.
 
 # dataset
 
-다음과 같은 `real_ids.csv` 파일이 있어야 합니다.
+it requires dataset `real_ids.csv` like this
 
 ```
-아이디1
-아이디2
+blabla1
+blabla__bla1bla1
 ...
-아이디N
+bla23.bla23
 ```
+you can easily collect ids from social media.
 
 
-
-# 의존 라이브러리
+# requirements
 
 * numpy
 
@@ -24,7 +26,7 @@ Generative adversarial network 을 활용해서 Fake ID를 생성하는 실험�
 * tensorflow (gpu)
 
 
-# 실행
+# run
 
 ```
 $ python3 train.py
@@ -33,7 +35,7 @@ $ python3 train.py
 
 ----
 
-# 결과
+# result example
 
 ```
 session loaded
